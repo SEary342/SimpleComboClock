@@ -26,13 +26,13 @@
   <text id = "day" class = "extraInfo"/>
   
   <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
-      <rect x="$-4" y="-110" width="5" height="110" fill="honeydew" rx="15" ry="15" />
+      <rect x="$-4" y="-110" width="5" height="110" fill="honeydew" />
   </g>
   <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
-      <rect x="$-6" y="-75" width="8" height="75" fill="honeydew" rx="10" ry="10"/>
+      <rect x="$-6" y="-75" width="8" height="75" fill="honeydew" />
   </g>
   <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
-      <rect x="$-2" y="-120" width="3" height="120" fill="darkgray" rx="15" ry="15"/>
+      <rect x="$-2" y="-120" width="3" height="120" fill="darkgray" />
   </g>
   <circle cx="50%" cy="50%" r="9" fill="darkgray" />
   
