@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "27b67618-03d9-477c-80c7-5337b5753127",
+    "appType": "clockface",
+    "appDisplayName": "Simple Combo Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Simple Combo Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}

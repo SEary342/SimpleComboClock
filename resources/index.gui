@@ -1,0 +1,39 @@
+<svg class="background">
+  
+  <circle  class = "watchFace" cx="50%" cy="50%" r='150'/>
+  <circle cx="50%" cy="50%" r="148"/>
+
+  <text class = "watchFace" id = "12">12</text>
+  <text class = "watchFace" id = "3">3</text>
+  <text class = "watchFace" id = "6">6</text>
+  <text class = "watchFace" id = "9">9</text>
+   
+  <line class = "watchFace" x1="214" y1="40" x2="224" y2="23"/>
+  <line class = "watchFace" x1="260" y1="86" x2="277" y2="77"/>
+
+  <line class = "watchFace" x1="260" y1="214" x2="277" y2="224"/>
+  <line class = "watchFace" x1="214" y1="260" x2="224" y2="277"/>
+
+  <line class = "watchFace" x1="86" y1="260" x2="76" y2="277"/>
+  <line class = "watchFace" x1="40" y1="214" x2="23" y2="224"/>
+
+  <line class = "watchFace" x1="40" y1="86" x2="23" y2="76"/>
+  <line class = "watchFace" x1="86" y1="40" x2="76" y2="23"/>
+  
+  <text id= "digLabel"/>
+  <text id= "steps" class = "extraInfo"/>
+  <text id = "date" class = "extraInfo"/>
+  <text id = "day" class = "extraInfo"/>
+  
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-4" y="-110" width="5" height="110" fill="#e0e0e0" rx="15" ry="15" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-6" y="-75" width="8" height="75" fill="#ffffff" rx="10" ry="10"/>
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-2" y="-120" width="3" height="120" fill="#ff0000" rx="15" ry="15"/>
+  </g>
+  <circle cx="50%" cy="50%" r="9" fill="grey" />
+  
+</svg>
